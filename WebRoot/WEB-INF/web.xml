@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletRegister</servlet-name>
+    <servlet-class>register.ServletRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckLogin</servlet-name>
+    <servlet-class>login.ServletCheckLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuthImage</servlet-name>
+    <servlet-class>code.AuthImage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletChangePass</servlet-name>
+    <servlet-class>findpassword.ServletChangePass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletConfirmChangePass</servlet-name>
+    <servlet-class>findpassword.ServletConfirmChangePass</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletUserInfo</servlet-name>
+    <servlet-class>perinfo.ServletUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Center</servlet-name>
+    <servlet-class>perinfo.Center</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyUser</servlet-name>
+    <servlet-class>changepassword.ServletVerifyUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletConfirmChange</servlet-name>
+    <servlet-class>changepassword.ServletConfirmChange</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletChangeInfo</servlet-name>
+    <servlet-class>perinfo.ServletChangeInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletRecord</servlet-name>
+    <servlet-class>loanrecord.ServletRecord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDelRecord</servlet-name>
+    <servlet-class>loanrecord.ServletDelRecord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletToLoan</servlet-name>
+    <servlet-class>toloan.ServletToLoan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletToApply</servlet-name>
+    <servlet-class>toloan.ServletToApply</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletLoanDetils</servlet-name>
+    <servlet-class>loandetils.ServletLoanDetils</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletToCheckLoan</servlet-name>
+    <servlet-class>admin.tocheckloan.ServletToCheckLoan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletChecked</servlet-name>
+    <servlet-class>admin.checked.ServletAgree</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDisagree</servlet-name>
+    <servlet-class>admin.checked.ServletDisagree</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servletMyApply</servlet-name>
+    <servlet-class>loandetils.servletMyApply</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletTotalChecked</servlet-name>
+    <servlet-class>admin.checked.ServletTotalChecked</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletTotalLending</servlet-name>
+    <servlet-class>admin.checked.ServletTotalLending</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletAddAnalyse</servlet-name>
+    <servlet-class>admin.analyse.ServletAddAnalyse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletAdminAnalyses</servlet-name>
+    <servlet-class>admin.analyse.ServletAdminAnalyses</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletDisplay</servlet-name>
+    <servlet-class>admin.analyse.ServletDisplay</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletSearchName</servlet-name>
+    <servlet-class>admin.checked.ServletSearchName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletSearch</servlet-name>
+    <servlet-class>admin.checked.ServletSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletUserDownload</servlet-name>
+    <servlet-class>downloadimg.ServletUserDownload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletService</servlet-name>
+    <servlet-class>admin.service.ServletService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletShowAdminService</servlet-name>
+    <servlet-class>admin.service.ServletShowAdminService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletShowService</servlet-name>
+    <servlet-class>admin.service.ServletShowService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletShowUserService</servlet-name>
+    <servlet-class>admin.service.ServletShowUserService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletShowToEditor</servlet-name>
+    <servlet-class>admin.service.ServletShowToEditor</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ServletRegister</servlet-name>
+    <url-pattern>/ServletRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckLogin</servlet-name>
+    <url-pattern>/CheckUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuthImage</servlet-name>
+    <url-pattern>/AuthImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletChangePass</servlet-name>
+    <url-pattern>/ChangePass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletConfirmChangePass</servlet-name>
+    <url-pattern>/ConfirmChangePass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletUserInfo</servlet-name>
+    <url-pattern>/UserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Center</servlet-name>
+    <url-pattern>/personSpace</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyUser</servlet-name>
+    <url-pattern>/verify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletConfirmChange</servlet-name>
+    <url-pattern>/changePass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletChangeInfo</servlet-name>
+    <url-pattern>/changeInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRecord</servlet-name>
+    <url-pattern>/loanRecord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDelRecord</servlet-name>
+    <url-pattern>/delRecord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletToLoan</servlet-name>
+    <url-pattern>/toLoan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletToApply</servlet-name>
+    <url-pattern>/toApply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletLoanDetils</servlet-name>
+    <url-pattern>/loanDetils</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletToCheckLoan</servlet-name>
+    <url-pattern>/toCheckLoan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletChecked</servlet-name>
+    <url-pattern>/agree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDisagree</servlet-name>
+    <url-pattern>/disagree</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servletMyApply</servlet-name>
+    <url-pattern>/myApply</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletTotalChecked</servlet-name>
+    <url-pattern>/totalCheckLoan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletTotalLending</servlet-name>
+    <url-pattern>/totalLending</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletAddAnalyse</servlet-name>
+    <url-pattern>/addAnalyse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletAdminAnalyses</servlet-name>
+    <url-pattern>/adminAnalyses</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDisplay</servlet-name>
+    <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletSearchName</servlet-name>
+    <url-pattern>/searchName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletSearch</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletUserDownload</servlet-name>
+    <url-pattern>/userDownload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletService</servlet-name>
+    <url-pattern>/verifyService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletShowAdminService</servlet-name>
+    <url-pattern>/showAdminService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletShowService</servlet-name>
+    <url-pattern>/showService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletShowUserService</servlet-name>
+    <url-pattern>/showUserService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletShowToEditor</servlet-name>
+    <url-pattern>/toEditor</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
